@@ -12,15 +12,19 @@ html, body, header, #intro {
 
 .myphoto {
     max-width: 450px;
+    max-height: 400px;
     margin-left: auto;
     margin-right: auto;
     height: auto;
 }
-.mysubtitle{
+.myphoto2 {
+    max-width: 450px;
+    max-height: 300px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 100px;
+    height: auto;
 }
+
 .bodytext{
     margin-left: auto;
     margin-right: auto;
@@ -28,12 +32,22 @@ html, body, header, #intro {
     margin-bottom: 1px;
     max-width: 500px;
 }
-
+.mt-1{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.mt-2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.pex1{
+    padding-top: 70px;
+}
 </style>
     
 <html lang="en">
     <head>
-        <title>The Official Justin Chua</title>
+        <title>My Page</title>
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
@@ -55,16 +69,16 @@ html, body, header, #intro {
                 <div class="collapse navbar-collapse" id="navbarText">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About Me</a>
+                            <a class="nav-link" href="#About-Me">About Me</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Work Experience</a>
+                            <a class="nav-link" href="#Experience">Work Experience</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Education</a>
+                            <a class="nav-link" href="#Education">Education</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Other Experiences</a>
+                            <a class="nav-link" href="#Skills">Skills & Proficiencies</a>
                         </li>
                     </ul>
                 </div>
@@ -89,23 +103,27 @@ html, body, header, #intro {
         </header>
         
         <main class="mt-5">
-            <section id="About Me" class="text-center">
+            <section id="About-Me" class="text-center">
                 
-                <h2 class="mb-5">About Me</h2>
+                <h2 class="mb-5 pex1">About Me</h2>
                 
+                <div class="container-fluid">
                 <div class="row">
                     <h3 class="col-md-6">
                         <img class="myphoto center" src="https:gdurl.com/Vdn0" alt="Me">
                     </h3>
-                    <div class="col-md-6 row d-flex justify-content-center mb-4">Some people ask my why my hair is so short. </div>
+                    <div class="col-md-6 row d-flex justify-content-center mb-4">Pen apple pineapple pen. </div>
+                </div>
                 </div>
             </section>
             <hr />
         
-            <section id="Work Experience" class="text-center">
+            <section id="Experience" class="text-center">
                 
-                <h2 class="mb-3">Work Experience</h2>
+                <h2 class="mb-3 pex1 mb-5">Work Experience</h2>
                 
+                <div class="container-fluid my-3">
+                <div class="card py-4">
                 <div class="row">
                     <div class="col-md-6">
                         <h4>Intellectual Property of Singapore (IPOS)</h4>
@@ -117,14 +135,20 @@ html, body, header, #intro {
                             <li class="text-justify bodytext"> Organised annual IED Team Bonding Session (Crime Scene Investigation) and Team Lunch at East Coast Park</li>
                         </ul>
                     </div>
+                
                     <div class="col-md-6">
                         <p><img class="myphoto center" src="https:gdurl.com/lgTv" alt="Me"></p> 
                     </div>
-                    
-                    <div class="row mysubtitle">
+                </div>
+                </div>
+                </div>
+                
+                    <div class="container-fluid my-3">
+                    <div class="card py-4">
+                    <div class="row">
                     
                         <div class="col-md-6">
-                        <p><img class="myphoto center" src="https:gdurl.com/9tsY" alt="Me"></p> 
+                        <p><img class="myphoto2 center" src="https:gdurl.com/9tsY" alt="Me"></p> 
                         </div>
                         
                         <div class="col-md-6">
@@ -134,49 +158,181 @@ html, body, header, #intro {
                             <li class= "text-justify bodytext">Supported the team in the overall communications management for SCRI</li>
                             <li class= "text-justify bodytext"> As an Intern, I was responsible for the preparation of monthly newsletters that would be presented to Board of Directors at the end of each month</li>
                             <li class= "text-justify bodytext">In preparation for the SCRI Media Wall project, I was responsible in liasing with various newspaper agencies including The Straits Times and TODAYOnline to seek their copyright approval to use articles featuring SCRI.</li>
-                            </ul>
-                    </div>
-                
-                    <div class="row mysubtitle">
-                    <div class="col-md-6">
-                        <h4>Ministry of Finance, Singapore (MOF)</h4>
-                            <p class= "text-center"><em>Intern, International Directorate (Dec 2018 - Jan 2019)</em></p>
-                        <ul>
-                            <li class= "text-justify bodytext">Supported the Directorate's overall effort to organise the ASEAN+3 Meetings (Finance Track) which included preparing draft write-ups for the ASEAN MOF Website, designing the event lanyard used by foreign guests, and hosting them on the event day</li>
                         </ul>
+                        </div>
                     </div>
-                    <div class="col-md-6">
-                        <p><img class="myphoto center" src="https:gdurl.com/GF0Q" alt="Me"></p> 
-                    </div>  
-                </section>
+                    </div>
+                    </div>
+                        
+                    <div class="container-fluid">
+                    <div class="card py-4">
+                        <div class="row">
+                        
+                        <div class="col-md-6">
+                            <h4>Ministry of Finance, Singapore (MOF)</h4>
+                                <p class= "text-center"><em>Intern, International Directorate (Dec 2018 - Jan 2019)</em></p>
+                            <ul>
+                                <li class= "text-justify bodytext">Supported the Directorate's overall effort to organise the ASEAN+3 Meetings (Finance Track) which included preparing draft write-ups for the ASEAN MOF Website, designing the event lanyard used by foreign guests, and hosting them on the event day</li>
+                            </ul>
+                        </div>
+                    
+                            <div class="col-md-6">
+                            <p><img class="myphoto center" src="https:gdurl.com/GF0Q" alt="Me"></p> 
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    </section>
                 <hr />
-                <section id="gallery">
+                        
+                <section id="Education" class="text-center">
                     
-                <div class="row mysubtitle">
-                    <div class="col-md-4">
-                        <i class="fa fa-heart fa-4x text-danger"></i>
-                        <h4 class="my-4">Passion</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima.</p>
+                <h2 class="mb-4 pex1">Education</h2>
+                <i class="fa fa-graduation-cap fa-4x text-danger"></i>
+                <h3 class="my-2">University</h3>
+                <h5><strong>National University of Singapore (NUS)</strong></h5>
+                    
+                <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-6 mt-2">
+                        <div class="card">
+                            <div class="card-body row">
+                                <div class="col-md-3 align-self-center"><strong>Degree</strong></div>
+                                <div class="col-md-9 text-justify">
+                                    <p class="mt-1"><strong>Bachelor of Social Sciences (Hons)</strong></p>
+                                    <p class="mt-1">Political Science and Southeast Asian Studies [Expected 2020]</p></div>
+                            </div>
+                            <div class="card-body row">
+                                <div class="col-md-3 align-self-center"><strong>Learning Beyond NUS</strong></div>
+                                <div class="col-md-9 text-justify">
+                                    <p class="mt-1"><strong>Singapore University Student Exchange Programme (SUSEP)</strong> to Nanyang Technological University (Jan 2019 - May 2019)</p>
+                                    <p class="mt-1"><strong>Winter Abroad at Yonsei University (WAY) </strong>, South Korea (Dec 2018 - Jan 2019)</p>
+                                    <p class="mt-1"><strong>Study Trip for Engagement and ENrichment (STEER)</strong>: Malaysia and Indonesia (May 2018)</p>
+                                </div>
+                            </div>
+                            <div class="card-body row">
+                                <div class="col-md-3 align-self-center"><strong>School Life</strong></div>
+                                <div class="col-md-9 text-justify">
+                                    <p class="mt-1"><strong>NUS Climbing Club</strong> (2019-Present)</p>
+                                    <p class="mt-1"><strong>NUS Southeast Asian Studies Society</strong> (2018-2019)</p>
+                                    <p class="mt-1">FASS Orientation Group Leader (OGL, FASS Arts Camp 2017)</p>
+                                </div>
+                            </div>
+                            <div class="card-body row">
+                                <div class="col-md-3 align-self-center"><strong>Community Service</strong></div>
+                                <div class="col-md-9 text-justify">
+                                    <p class="mt-1"><strong>NUS Community Service Club (CSC)</strong> (June - July 2019)</p>
+                                    <ul>
+                                        <li>Project Paint-A-Home (PAH): Volunteer</li>
+                                        <li>Project Collection in Aid of the Needy (C.A.N): Leader/Volunteer</li>
+                                    </ul>
+                                    <p class="my-1"><strong>Youth Expedition Programme (YEP)</strong>: NUS Project Matuwa (The Philippines, Bago City) (May 2017)</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     
-                    <div class="col-md-4">
-                        <i class="fa fa-camera fa-4x text-warning"></i>
-                        <h4 class="my-4">Adventure</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima.</p>
-                    </div>
-                    
-                    <div class="col-md-4">
-                        <i class="fa fa-car fa-4x text-primary"></i>
-                        <h4 class="my-4">Endurance</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima.</p>
+                    <div class="col-md-6 align-self-center">
+                        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                          <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
+                         </ol>
+                          <div class="carousel-inner">
+                            <div class="carousel-item active">
+                              <img class="d-block w-100" src="https://gdurl.com/o9Ih" alt="SUSEP @ NTU">
+                                <div class="carousel-caption d-none d-md-block">
+                                <p class="bg-light text-dark">Visit to Orang Laut @ Johor Bahru with NTU Students (Mar 2019)</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                              <img class="d-block w-100" src="https://gdurl.com/LO3o" alt="SUSEP @ NTU">
+                                <div class="carousel-caption d-none d-md-block">
+                                <p class="bg-light text-dark">Inviting Professor Tay Kheng Soon to share his insights as part of my group's research project on History of Environment in Singapore</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                              <img class="d-block w-100" src="https://gdurl.com/uriu" alt="WAY@2018">
+                                <div class="carousel-caption d-none d-md-block">
+                                <p class="bg-light text-dark">Taking a Photo with Korean Friends @ Yonsei (Jan 2019)</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                              <img class="d-block w-100" src="https://gdurl.com/PN_z" alt="FASS">
+                                <div class="carousel-caption d-none d-md-block">
+                                <p class="bg-light text-dark">FASS Arts Camp (Pre-Camp) 2017</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                              <img class="d-block w-100" src="https://gdurl.com/CDS9b" alt="FASS">
+                                <div class="carousel-caption d-none d-md-block">
+                                <p class="bg-light text-dark">Winning Best OG in FASS Arts Camp 2017</p>
+                                </div>
+                            </div>
+                             <div class="carousel-item">
+                              <img class="d-block w-100" src="https://gdurl.com/5bnB" alt="STEER">
+                                <div class="carousel-caption d-none d-md-block">
+                                <p class="bg-light text-dark">Visiting Mr Lee, a Traditional Joss Sticks Maker, in Penang</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                              <img class="d-block w-100" src="https://gdurl.com/GD43" alt="Project C.A.N">
+                                <div class="carousel-caption d-none d-md-block">
+                                <p class="bg-light text-dark">Collecting donated supplies from Residents @ Teck Ghee</p>
+                                </div>
+                            </div>
+                          </div>
+                          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                          </a>
+                          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                          </a>
+                        </div>
                     </div>
                 </div>
-                
+                </div>
+                <hr />
+            
+            <section id="Skills">
+            <h2 class="mb-4 pex1">Skills & Proficiencies</h2>
+            <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 mt-2">
+                    <h3 class="my-2">Languages: English, Mandarian, Malay</h3>
+                    <div class="card">
+                    <p class="my-3"><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/o0Tm2Ov7Kl0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>    
+                    </div>
+                </div>
+                <div class="col-md-6 mt-2">
+                    <h3 class="my-2">Research</h3>
+                        <div class="card">
+                            <div class="card-body row">
+                            <h6 class="align-self-left ml-3 mb-1"><strong>Topic</strong>: “The Distribution of Identity and China’s Projects for Regional Hegemony”</h6>
+                            <p class="align-self-left ml-5 mb-0">Principal Examiner: Prof Theodore Geoffrey Hopf</p>
+                            <p class="align-self-left ml-5 mb-0">Research Duration: January 2019 – May 2019</p>
+                            <h6 class="align-self-left ml-3 mb-1 mt-3"><strong>Topic</strong>: “The Tianxia Concept in Contemporary Discussions of China”</h6>
+                            <p class="align-self-left ml-5 mb-0">Principal Examiner: A/P Loy Hui-Chieh</p>
+                            <p class="align-self-left ml-5 mb-0">Research Duration: January 2019 – May 2019</p>
+                            </div>
+                        </div>
+                </div>
+            </div>
+            </div>
+            </section>
+                    
             </section>
             <hr />
             
-            <section id="contact">
-            </section>
+            
+            
                 
         </main>
         
@@ -186,7 +342,7 @@ html, body, header, #intro {
                     <div class="col-md-6 text-center">
                         <a href="#" class="text-white"><i class="fa fa-twitter"></i></a>
                         <a href="#" class="text-white"><i class="fa fa-facebook"></i></a>
-                        <a href="#" class="text-white"><i class="fa fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/justin-chua-b5b33159/" class="text-white"><i class="fa fa-linkedin-square"></i></a>
                     </div>
                 </div>
             </div>
