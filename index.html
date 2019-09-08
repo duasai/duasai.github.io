@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 
-<style>
 html, body, header, #intro {
     height: 100%;
 }
@@ -43,8 +42,30 @@ html, body, header, #intro {
 .pex1{
     padding-top: 70px;
 }
-</style>
+.videoWrapper {
+	position: relative;
+}
 
+.iframe-container{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; 
+  height: 0;
+}
+.iframe-container iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.photoresponsive {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+
+<!DOCTYPE html>
 <html lang="en">
     <head>
         <title>My Page</title>
@@ -110,7 +131,7 @@ html, body, header, #intro {
                 <div class="container-fluid">
                 <div class="row">
                     <h3 class="col-md-6">
-                        <img class="myphoto center img-responsive" src="https://gdurl.com/Vdn0" alt="Me">
+                        <img class="photoresponsive myphoto center" src="https://gdurl.com/Vdn0" alt="Me">
                     </h3>
                     <div class="col-md-6 row d-flex justify-content-center mb-4">Pen apple pineapple pen. </div>
                 </div>
@@ -128,16 +149,16 @@ html, body, header, #intro {
                     <div class="col-md-6">
                         <h4>Intellectual Property of Singapore (IPOS)</h4>
                             <p class= "text-center"><em>Intern, International Engagement Department (IED) (May 2019 - Aug 2019)</em></p>
-                        <ul>
-                            <li class= "text-justify bodytext mt-1">Undertook desktop research to identify new opportunities for Intellectual Property (IP) collaborations between the Government of Singapore and other Southeast Asian countries</li>
-                            <li class= "text-justify bodytext mt-1">Presented findings to IPOS's Policy and Engagement Cluster</li>
-                            <li class= "text-justify bodytext mt-1">Supported IED in receiving foreign guests which includes hosting them and taking down meeting minutes</li>
-                            <li class="text-justify bodytext mt-1"> Organised annual IED Team Bonding Session (Crime Scene Investigation) and Team Lunch at East Coast Park</li>
+                        <ul class= "text-justify bodytext mt-1 pr-4 mt-2">
+                            <li>Undertook desktop research to identify new opportunities for Intellectual Property (IP) collaborations between the Government of Singapore and other Southeast Asian countries</li>
+                            <li>Presented findings to IPOS's Policy and Engagement Cluster</li>
+                            <li>Supported IED in receiving foreign guests which includes hosting them and taking down meeting minutes</li>
+                            <li> Organised annual IED Team Bonding Session (Crime Scene Investigation) and Team Lunch at East Coast Park</li>
                         </ul>
                     </div>
                 
                     <div class="col-md-6">
-                        <p><img class="myphoto center img-responsive" src="https://gdurl.com/lgTv" alt="Me"></p> 
+                        <p><img class="photoresponsive myphoto center" src="https://gdurl.com/lgTv" alt="Me"></p> 
                     </div>
                 </div>
                 </div>
@@ -148,16 +169,16 @@ html, body, header, #intro {
                     <div class="row">
                     
                         <div class="col-md-6">
-                        <p><img class="myphoto2 center img-responsive" src="https://gdurl.com/9tsY" alt="Me"></p> 
+                        <p><img class="photoresponsive myphoto2 center" src="https://gdurl.com/9tsY" alt="Me"></p> 
                         </div>
                         
                         <div class="col-md-6">
                         <h4>Singapore Clinical Research Institute (SCRI)</h4>
                             <p class= "text-center"><em>Intern (Part-Time), Corporate Affairs Department (IED) (Aug 2018 - Dec 2018)</em></p>
-                        <ul>
-                            <li class= "text-justify bodytext mt-1">Supported the team in the overall communications management for SCRI</li>
-                            <li class= "text-justify bodytext mt-1"> As an Intern, I was responsible for the preparation of monthly newsletters that would be presented to Board of Directors at the end of each month</li>
-                            <li class= "text-justify bodytext mt-1">In preparation for the SCRI Media Wall project, I was responsible in liasing with various newspaper agencies including The Straits Times and TODAYOnline to seek their copyright approval to use articles featuring SCRI.</li>
+                        <ul class= "text-justify bodytext mt-1 pr-4">
+                            <li>Supported the team in the overall communications management for SCRI</li>
+                            <li> As an Intern, I was responsible for the preparation of monthly newsletters that would be presented to Board of Directors at the end of each month</li>
+                            <li>In preparation for the SCRI Media Wall project, I was responsible in liasing with various newspaper agencies including The Straits Times and TODAYOnline to seek their copyright approval to use articles featuring SCRI.</li>
                         </ul>
                         </div>
                     </div>
@@ -172,12 +193,12 @@ html, body, header, #intro {
                             <h4>Ministry of Finance, Singapore (MOF)</h4>
                                 <p class= "text-center mt-1"><em>Intern, International Directorate (Dec 2018 - Jan 2019)</em></p>
                             <ul>
-                                <li class= "text-justify bodytext mt-1">Supported the Directorate's overall effort to organise the ASEAN+3 Meetings (Finance Track) which included preparing draft write-ups for the ASEAN MOF Website, designing the event lanyard used by foreign guests, and hosting them on the event day</li>
+                                <li class= "text-justify bodytext mt-1 pr-4">Supported the Directorate's overall effort to organise the ASEAN+3 Meetings (Finance Track) which included preparing draft write-ups for the ASEAN MOF Website, designing the event lanyard used by foreign guests, and hosting them on the event day</li>
                             </ul>
                         </div>
                     
                             <div class="col-md-6">
-                            <p><img class="myphoto center" src="https://gdurl.com/GF0Q" alt="Me"></p> 
+                            <p><img class="photoresponsive myphoto center" src="https:gdurl.com/GF0Q" alt="Me"></p> 
                             </div>
                         </div>
                     </div>
@@ -308,7 +329,7 @@ html, body, header, #intro {
                 <div class="col-md-6 mt-2">
                     <h3 class="my-2">Languages: English, Mandarian, Malay</h3>
                     <div class="card">
-                    <p class="my-3"><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/o0Tm2Ov7Kl0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>    
+                        <p class="iframe-container my-3"><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/o0Tm2Ov7Kl0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p> 
                     </div>
                 </div>
                 <div class="col-md-6 mt-2">
@@ -330,10 +351,7 @@ html, body, header, #intro {
                     
             </section>
             <hr />
-            
-            
-            
-                
+          
         </main>
         
          <footer class="page-footer bg-dark">
