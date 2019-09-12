@@ -1,1 +1,2 @@
-# duasai.github.io
+I attempted to turn my webpage into a personal CV. I listed my various work experiences and described briefly my other skills and commitments. I thought it would be useful to use photos to illustrate them, rather than relying on words like a traditional CV.
+Some of the challenges I faced include troubleshooting for the code errors. Being unfamiliar with HTML, it took me some time to locate the errors and rectify them.
